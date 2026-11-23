@@ -1,0 +1,75 @@
+schema_version: 1
+project_id: demo
+intent_id: record-feature-v1
+repository: example/project
+bolt_id: B001
+contract:
+  id: record-v1
+  path: contracts/public.md
+  sha256: 242f040305da9976763576cabbaf357b14add9c1dcea551aa3d85d6353cc6d5b
+units:
+- id: U001
+  title: Independent part1
+  objective: Build and verify part1 against the frozen record, not another unfinished
+    unit.
+  status: ready
+  depends_on: []
+  owned_paths:
+  - src/part1/
+  - tests/part1/
+  spec: docs/units/U001.md
+  requirements:
+  - REQ-001
+  acceptance_criteria:
+  - Valid records are accepted
+  - Invalid records produce a structured error
+  test_commands:
+  - python -m unittest discover -s tests/part1
+  test_double: tests/part1/fixture.json
+  tickets:
+  - key: implementation
+    title: Implement part1
+- id: U002
+  title: Independent part2
+  objective: Build and verify part2 against the frozen record, not another unfinished
+    unit.
+  status: ready
+  depends_on: []
+  owned_paths:
+  - src/part2/
+  - tests/part2/
+  spec: docs/units/U002.md
+  requirements:
+  - REQ-002
+  acceptance_criteria:
+  - Valid records are accepted
+  - Invalid records produce a structured error
+  test_commands:
+  - python -m unittest discover -s tests/part2
+  test_double: tests/part2/fixture.json
+  tickets:
+  - key: implementation
+    title: Implement part2
+  - key: verification
+    title: Verify part2 contract cases
+- id: U003
+  title: Independent part3
+  objective: Build and verify part3 against the frozen record, not another unfinished
+    unit.
+  status: ready
+  depends_on: []
+  owned_paths:
+  - src/part3/
+  - tests/part3/
+  spec: docs/units/U003.md
+  requirements:
+  - REQ-003
+  acceptance_criteria:
+  - Valid records are accepted
+  - Invalid records produce a structured error
+  test_commands:
+  - python -m unittest discover -s tests/part3
+  test_double: tests/part3/fixture.json
+  tickets:
+  - key: implementation
+    title: Implement part3
