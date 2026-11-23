@@ -1,0 +1,65 @@
+{
+  "INDEX": {
+    "path": "docs/INDEX.md"
+  },
+  "VISION": {
+    "path": "docs/product/VISION.md"
+  },
+  "PRD": {
+    "path": "docs/product/PRD.md"
+  },
+  "USER_STORIES": {
+    "path": "docs/product/USER_STORIES.md"
+  },
+  "UX_DESIGN": {
+    "path": "docs/design/UX_DESIGN.md"
+  },
+  "UI_DESIGN": {
+    "path": "docs/design/UI_DESIGN.md"
+  },
+  "DESIGN_SYSTEM": {
+    "path": "docs/design/DESIGN_SYSTEM.md"
+  },
+  "ARCHITECTURE": {
+    "path": "docs/design/ARCHITECTURE.md"
+  },
+  "TECHNICAL_DESIGN": {
+    "path": "docs/design/TECHNICAL_DESIGN.md"
+  },
+  "API_CONTRACTS": {
+    "path": "docs/design/API_CONTRACTS.md"
+  },
+  "DATA_MODEL": {
+    "path": "docs/design/DATA_MODEL.md"
+  },
+  "SECURITY_DESIGN": {
+    "path": "docs/design/SECURITY_DESIGN.md"
+  },
+  "WORK_PLAN": {
+    "path": "docs/delivery/WORK_PLAN.md"
+  },
+  "TEST_STRATEGY": {
+    "path": "docs/delivery/TEST_STRATEGY.md"
+  },
+  "INTEGRATION_PLAN": {
+    "path": "docs/delivery/INTEGRATION_PLAN.md"
+  },
+  "DEPLOYMENT": {
+    "path": "docs/delivery/DEPLOYMENT.md"
+  },
+  "RUNBOOK": {
+    "path": "docs/operations/RUNBOOK.md"
+  },
+  "LEARNINGS": {
+    "path": "docs/knowledge/LEARNINGS.md"
+  },
+  "UNIT": {
+    "path": "docs/delivery/units/U001.md"
+  },
+  "BOLT": {
+    "path": "docs/delivery/bolts/B001.md"
+  },
+  "ADR": {
+    "path": "docs/decisions/ADR-0001.md"
+  }
+}

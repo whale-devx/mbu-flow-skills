@@ -1,0 +1,9 @@
+[project]
+name = "mbu-flow-skills"
+version = "0.1.0a1"
+description = "MBUFlow: Mob, Bolt and Unit workflows for AI agents"
+requires-python = ">=3.11"
+dependencies = ["PyYAML==6.0.3"]
+
+[tool.ruff]
+line-length = 120
